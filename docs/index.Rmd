@@ -1,0 +1,24 @@
+---
+title: "A questão dos Ranchos de Pesca no âmbito da REURB"
+author: 
+- "Humberto Pereira de Almeida"
+- "Luiz Fernando Palin Droubi"
+date: "5 de dezembro de 2019"
+output: 
+  ioslides_presentation:
+     widescreen: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Tópico Especial da REURB
+
+A questão dos ranchos de pesca no Estado de Santa Catarina
+
+## Vetor social da concessão e TAUS para Ranchos de Pesca
+
+> Preservar comunidades tradicionais de pescadores profissionais/artesanais, 
+salvaguardando a cultura dessas comunidades.
+

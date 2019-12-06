@@ -16,8 +16,18 @@ knitr::opts_chunk$set(echo = FALSE, dev = "tikzDevice")
 ## Atual
 
 \begin{center}
+\smartdiagramset{custom/.style={
+  satellite font=\tiny,
+  satellite size=1.25cm,
+  planet font=\footnotesize,
+  planet size=1.25cm,
+  distance planet-satellite=3cm,
+  distance planet-text=.1cm
+  }
+}
+\smartdiagramset{custom}
 \smartdiagram[constellation diagram]{
-Pescador, SPU, Município, ICMBIO, BB, INSS, RFB, Capitania 
+\textbf{Pescador}, \textbf{SPU}, \textbf{Município}, \textbf{ICMBIO}, \textbf{BB}, \textbf{INSS}, \textbf{RFB}, \textbf{Capitania dos Portos}
 }
 \end{center}
 

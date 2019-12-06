@@ -191,6 +191,11 @@ class: center, middle
 Visa regulamentar os procedimentos entre as instituições e a regularização de ranchos, para pescadores artesanais/profissionais de Comunidades Tradicionais em Santa Catarina, de uso sustentável, com anuência do Município de Florianópolis.
 ]
 
+---
+
+## Atual - Pescador é responsável por requerer em cada órgão
+
+&lt;img src="Diagrama_atual.PNG" width="50%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -349,7 +354,24 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {

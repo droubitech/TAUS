@@ -129,8 +129,8 @@ class: inverse, center, middle
 ---
 class: center, middle
 
-|MUNICÍPIOS	               | VALORES 2016 <br> (R$)  |VALORES 2017 <br> (R$)| VALORES 2016 <br> (R$)|	 TOTAL      | 
-|-------------------------:|------------------------:|---------------------:|----------------------:|------------:|
+| **MUNICÍPIOS**           | VALORES 2016 <br> (R$)  |VALORES 2017 <br> (R$)| VALORES 2016 <br> (R$)|	**TOTAL**   | 
+|:-------------------------|------------------------:|---------------------:|----------------------:|------------:|
 |ABELARDO LUZ       	     |       565,87 	         |       545,46 	      |       561,02 	        |     1.672,35|
 |ARAQUARI	                 |    48.406,50 	         |    54.987,06 	      |   155.372,86 	        |   258.766,42|
 |ARARANGUA	               |    34.368,84 	         |    35.215,11 	      |    39.291,37 	        |   108.875,32| 
@@ -148,8 +148,8 @@ class: center, middle
 ---
 class: center, middle
 
-|MUNICÍPIOS	               | VALORES 2016 <br> (R$)  |VALORES 2017 <br> (R$)| VALORES 2016 <br> (R$)|	 TOTAL      | 
-|-------------------------:|------------------------:|---------------------:|----------------------:|------------:|
+| **MUNICÍPIOS**           | VALORES 2016 <br> (R$)  |VALORES 2017 <br> (R$)| VALORES 2016 <br> (R$)|	**TOTAL**   | 
+|:-------------------------|------------------------:|---------------------:|----------------------:|------------:|
 |FLORIANOPOLIS	           | 1.535.549,96 	         | 1.451.924,24 	      | 1.512.138,34 	        | 4.499.612,54|
 |GAROPABA	                 |   122.050,11 	         |   164.691,58 	      |   131.802,86          |	  418.544,55|
 |GARUVA	                   |    14.172,56 	         |    19.160,96 	      |    15.161,68 	        |    48.495,20|
@@ -166,8 +166,8 @@ class: center, middle
 ---
 class: center, middle
 
-|MUNICÍPIOS	               | VALORES 2016 <br> (R$)  |VALORES 2017 <br> (R$)| VALORES 2016 <br> (R$)|	 TOTAL      | 
-|-------------------------:|------------------------:|---------------------:|----------------------:|------------:|
+| **MUNICÍPIOS**           | VALORES 2016 <br> (R$)  |VALORES 2017 <br> (R$)| VALORES 2016 <br> (R$)|	**TOTAL**   | 
+|:-------------------------|------------------------:|---------------------:|----------------------:|------------:|
 |JAGUARUNA	               |       591,32 	         |     1.573,31 	      |       649,53          |     2.814,16| 
 |JOINVILLE	               |   248.826,52 	         |   310.241,49 	      |   204.808,84 	        |   763.876,85|
 |LAGUNA	                   |   176.855,32 	         |   195.519,36 	      |   294.704,32          |   667.079,00|
@@ -242,7 +242,7 @@ class: center, inverse, middle
 ---
 class: center, middle
 
-| Responsável                                                  |	Ação                                     |	Produto                                                      |
+| **Responsável**                                              |	**Ação*                                 |	**Produto**                                                    |
 |-------------------------------------------------------------:|-----------------------------------------:|---------------------------------------------------------------:|
 | Requerente	                                                 | Protocola pedido junto à PM              | Requerimento preenchido                                        |
 | SAC Municipal <br> (Pró-Cidadão)                             | Protocola requerimento no e-SPU e PM     | Número do processo SEI/ME <br> Número do processo na Prefeitura|
@@ -251,3 +251,12 @@ class: center, middle
 | SAC Municipal                                                | Protocola Parecer Final no SPUNET        | Nº de atendimento SPU                                          |
 | Área técnica SPU/SC                                          | Analisa requerimento                     | Nota técnica                                                   |
 | Gabinete SPU/SC                                              | Assina TAUS                              | Extrato TAUS no DOU                                            |
+
+---
+class: center, inverse, middle
+
+## Requerimentos
+
+---
+
+[Requerimento TAUS](https://github.com/droubitech/TAUS/raw/master/ANEXO%20I-%20Requerimento%20de%20TAUS.doc)

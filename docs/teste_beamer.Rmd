@@ -13,8 +13,15 @@ output:
 knitr::opts_chunk$set(echo = FALSE, dev = "tikzDevice")
 ```
 
+## Atual
 
-## a {.plain}
+\begin{center}
+\smartdiagram[constellation diagram]{
+Pescador, SPU, Município, ICMBIO, BB, INSS, RFB, Capitania 
+}
+\end{center}
+
+## Desejado {.plain}
 
 \begin{center}
 
@@ -44,8 +51,8 @@ knitr::opts_chunk$set(echo = FALSE, dev = "tikzDevice")
     \textbf{ICMBio} \\ Nada a opor,
     \textbf{BB} \\ Comprova\c{c}\~{a}o servidor p\'{u}blico,
     \textbf{INSS} \\  CNIS ,
-    \textbf{RFB} \\ Cadastro Espec\'{i}fico,
-    \textbf{Capitania} \\ Carteira POP e Registro}
+    \textbf{RFB} \\ CEI,
+    \textbf{Capitania} \\ Carteira POP e Reg. Embarcação}
     {right of module7/ Pescador}
 
 \end{center}

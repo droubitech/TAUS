@@ -1,89 +1,18 @@
-.title-slide {
-  background-image: url('bg1.png');
-  background-size: cover;
-}
-
-.primary {
-  background-image: url("bg2.png"); 
-  background-size: contain;
-}
-
-h1, h2, h3 {
+h1, h2 {
   font-weight: normal;
-  color: #104E8B;
   text-shadow: none;
 }
 
-h4 {
+h3, h4 {
   font-weight: normal;
-  color: #104E8B;
   text-shadow: none;
+  font-size: 32px
 }
 
-.fullpage img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.fullpage.height img {
-  position: absolute;
-  height: 100%;
-  transform: translate(-50%, -50%);
-  max-width: none;
-}
-.center2 {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.remark-slide-number {
-  position: inherit;
-}
-
-.remark-slide-number .progress-bar-container {
-  position: absolute;
-  bottom: 0;
-  height: 4px;
-  display: block;
-  left: 0;
-  right: 0;
-}
-
-.remark-slide-number .progress-bar {
-  height: 100%;
-  background-color: red;
-}
-
-.box {
-  width: 100px;
-  height: 100x;
-}
-
-.blue {
-  background: #13b4ff;
-}
-
-.purple {
-  background: #ab3fdd;
-}
-
-.wine {
-  background: #ae163e;
-}
-
-.red{
-	background:#f00;
-}
-
-.green{
-	background:#0f0;
+h5 {
+  font-weight: normal;
+  text-shadow: none;
+  text-align: justify;
+  margin-top: 150px;
+  font-size: 24px
 }

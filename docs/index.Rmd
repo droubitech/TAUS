@@ -1,13 +1,13 @@
 ---
-title: "A questão dos Ranchos de Pesca"
-subtitle: "no âmbito da REURB"
+title: "Ranchos de Pesca em SC"
+subtitle: "em relação à emissão de TAUS"
 author: "Humberto Pereira de Almeida"
 institute: "SPU-SC"
 date: "05/12/2019 (atualizada: `r format(Sys.Date(), '%d/%m/%Y')`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: [default, hygge.css, cols.css]
+    css: [default, hygge.css, cols.css, extra.css]
     nature:
       beforeInit: "cols_macro.js"
       highlightStyle: github
@@ -21,23 +21,21 @@ background-size: contain
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.align = "center", out.width = "80%", fig.path = "images/",
+                      eval = TRUE)
 ```
-
----
-class: inverse, center, middle
-
-# Tópico Especial da REURB
-
-## A questão dos ranchos de pesca no Estado de Santa Catarina
 
 ---
 
 ## Vetor social da concessão de TAUS para Ranchos de Pesca
 
+<br><br><br><br><br><br>
+
 .Large[
-> Preservar comunidades tradicionais de pescadores profissionais/artesanais, 
-salvaguardando a cultura dessas comunidades.
+Preservar comunidades tradicionais de pescadores profissionais/artesanais, salvaguardando a cultura dessas comunidades.
 ]
+
 
 ---
 
@@ -49,7 +47,7 @@ salvaguardando a cultura dessas comunidades.
 
 --
 
-+ Os Pescadores apresentam dificuldades no acesso ao Portal Eletrônico, daí preferem atendimento presencial
++ Os Pescadores apresentam dificuldades no acesso ao Portal Eletrônico, preferem atendimento presencial
 
 --
 
@@ -57,7 +55,7 @@ salvaguardando a cultura dessas comunidades.
 
 --
 
-+ Os pescadores precisam recorrer a 5 (cinco) órgãos federais, para conseguir os requisitos necessários à obtenção de TAUS
++ Os pescadores precisam recorrer a 7 (sete) entes para conseguir os requisitos necessários à obtenção de TAUS
 
 --
 
@@ -71,13 +69,14 @@ salvaguardando a cultura dessas comunidades.
 
 ## Impacto desses fatores críticos
 
---
-
-### Volumoso passivo de pleitos
 
 --
 
-.full-width[.content-box-purple[.center[Processos triados DIRFH (Set/2019) <br> 853]]]
+### Volumoso passivo de pleitos na NUREF/SPU/SC
+
+--
+
+.full-width[.content-box-purple[.center[Processos triados - DIRFH (Set/2019) <br> 853]]]
 
 --
 
@@ -105,11 +104,10 @@ salvaguardando a cultura dessas comunidades.
 
 --
 
-+ Os Pescadores são munícipes e esperam ter suas necessidades atendidas no seu próprio município.
-
++ O Pescador espera que as suas necessidades sejam atendidas no próprio município.
 --
 
-+ O município perfaz a filtragem dos pleitos, evitando que demandas que vão de encontro ao plano diretor ou que firam interesses do ordenamento territorial costeiro do município prosperem.
++ O município perfaz a filtragem dos pleitos, evitando que demandas em desacordo com o Plano Diretor Municipal e Ambiental
 
 --
 
@@ -117,7 +115,7 @@ salvaguardando a cultura dessas comunidades.
 
 --
 
-+ A proteção às comunidades tradicionais (quilombolas, indígenas, pescadores artesanais, dentre outras minorias) é exercida pelos municípios.
++ A proteção às comunidades tradicionais de pescadores artesanais/profissionais, dentre outras minorias, é exercida pelos municípios.
 
 ---
 class: inverse, center, middle
@@ -183,47 +181,62 @@ class: center, middle
 |TIJUCAS	                 |     8.383,65 	         |     9.104,76 	      |     8.105,55          |    25.593,96|
 
 ---
-class: inverse, center, middle
 
-## A importância da construção de parcerias
+## Projeto de Descentralização e Modernização Administrativa de Regularização de Ranchos de Pesca em Santa Catarina
 
-### Com órgãos setoriais e com o município
+<br><br><br><br><br><br>
 
----
-
-## Processo envolvendo múltiplos atores institucionais
-
+.Large[
+Visa regulamentar os procedimentos entre as instituições e a regularização de ranchos, para pescadores artesanais/profissionais de Comunidades Tradicionais em Santa Catarina, de uso sustentável, com anuência do Município de Florianópolis.
+]
 
 
 ---
 
-## A necessária racionalização do processo 
+## Ideal - Racionalização do processo envolvendo múltiplos atores institucionais
 
---
+.pull-left[
 
-### Demanda parcerias
+```{r, echo = FALSE, out.width="100%"}
+knitr::include_graphics("Diagrama.PNG")
+```
 
---
+]
 
-+ O Decreto 9.094/2017
+.pull-right[
 
---
+<br><br><br><br><br><br><br><br><br><br>
 
-+ Vantagens da Janela Única (single window) no atendimento ao Usuário do serviço público
-
---
++ Vantagens da Janela Única (single window) no atendimento ao Usuário do serviço público - O Decreto 9.094/2017.
 
 + Responsabilização da instituição de entrada por toda a cadeia do processo, desde o requerimento até a emissão de TAUS
 
+]
+
 ---
 
-## Projeto Piloto
+```{r, echo = FALSE, out.width="50%"}
+knitr::include_graphics("entidades.PNG")
+```
 
-### Descentralização e Modernização Admnistrativa
+--
 
-.Large[
-Visa a regulamentação de procedimentos entre as instituições quanto à regularização de ranchos para pescadores artesanais ou profissionais de Comunidades Tradicionais em Santa Catarina, com anuência do Município de Florianópolis.
-]
+```{r, echo = FALSE, out.width="50%"}
+knitr::include_graphics("orgaos.PNG")
+```
+
+--
+
+```{r, echo = FALSE, out.width="50%"}
+knitr::include_graphics("judiciais.PNG")
+```
+
+---
+
+#### Projeto de Descentralização e Modernização Administrativa de Regularização de Ranchos de Pesca em Santa Catarina
+
+##### Visa a regulamentação de procedimentos entre as instituições quanto à regularização de ranchos para pescadores artesanais ou profissionais de Comunidades Tradicionais em Santa Catarina, com anuência do Município de Florianópolis.
+
 
 ---
 class: center, inverse, middle

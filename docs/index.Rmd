@@ -19,6 +19,8 @@ output:
 background-image: url(Capa.png)
 background-size: contain
 
+Comunidade de Palhoça - Foto do Google
+
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
@@ -182,16 +184,6 @@ class: center, middle
 
 ---
 
-## Projeto de Descentralização e Modernização Administrativa de Regularização de Ranchos de Pesca em Santa Catarina
-
-<br><br><br><br><br><br>
-
-.Large[
-Visa regulamentar os procedimentos entre as instituições e a regularização de ranchos, para pescadores artesanais/profissionais de Comunidades Tradicionais em Santa Catarina, de uso sustentável, com anuência do Município de Florianópolis.
-]
-
----
-
 ## Atual - Pescador é responsável por requerer em cada órgão
 
 ```{r, echo = FALSE, out.width="50%"}
@@ -262,7 +254,7 @@ III - CRIAÇÃO DOS INSTRUMENTOS NECESSÁRIOS, por meio de reuniões de trabalho
 
 --
 
-[IV - EMISSÃO DE NOTA TÉCNICA](https://github.com/droubitech/TAUS/raw/master/01%20-%20Nota%20T%C3%A9cnica%20-%20Projeto%20de%20Descentraliza%C3%A7%C3%A3o%20e%20Moderniza%C3%A7%C3%A3o%20Administrativa.odt), para aprovação do Projeto de Descentralização e Modernização Administrativa;
+Aprovação do Projeto de Descentralização e Modernização Administrativa;
 
 --
 
@@ -282,15 +274,19 @@ background-image: url(fluxograma.png)
 background-size: contain
 ---
 
-## IV-EMISSÃO DE NOTA TÉCNICA
+## LINKS
 
 --
 
-[ANEXO I-REQUERIMENTO DE RANCO DE PESCA](https://github.com/droubitech/TAUS/raw/master/ANEXO%20I-%20Requerimento%20de%20Rancho%20de%20Pesca.doc);
+[PROJETO DE DESCENTRALIZAÇÃO E MODERNIZAÇÃO ADMINISTRATIVA](https://github.com/droubitech/TAUS/raw/master/Projeto%20de%20Descentraliza%C3%A7%C3%A3o%20e%20Moderniza%C3%A7%C3%A3o%20Administrativa.odt)
 
 --
 
-[ANEXO II-IDENTIFICAÇÃO E CARACTERIZAÇÃO DO PESCADOR DE COMUNIDADE TRADICIONAL](https://github.com/droubitech/TAUS/raw/master/ANEXO%20II%20-%20Identifica%C3%A7%C3%A3o%20e%20Carcteriza%C3%A7%C3%A3o%20de%20Pescador%20do%20Comunidade%20Tradicional.doc);
+[ANEXO I - REQUERIMENTO DE RANCO DE PESCA](https://github.com/droubitech/TAUS/raw/master/ANEXO%20I-%20Requerimento%20de%20Rancho%20de%20Pesca.doc);
+
+--
+
+[ANEXO II - IDENTIFICAÇÃO E CARACTERIZAÇÃO DO PESCADOR DE COMUNIDADE TRADICIONAL](https://github.com/droubitech/TAUS/raw/master/ANEXO%20II%20-%20Identifica%C3%A7%C3%A3o%20e%20Carcteriza%C3%A7%C3%A3o%20de%20Pescador%20do%20Comunidade%20Tradicional.doc);
 
 --
 
@@ -298,21 +294,25 @@ background-size: contain
 
 --
 
-[ANEXO IV-MINUTA DE TAUS](https://github.com/droubitech/TAUS/raw/master/ANEXO%20IV-%20Minuta%20de%20%20TAUS.doc);
+[ANEXO IV - MINUTA DE TAUS](https://github.com/droubitech/TAUS/raw/master/ANEXO%20IV-%20Minuta%20de%20%20TAUS.doc);
 
 --
 
-[ANEXO V-ATA DE APROVAÇÃO DO PROJETO DE DESCENTRALIZAÇÃO E MODERNIZAÇÃO ADMINISTRATIVA](https://github.com/droubitech/TAUS/raw/master/ANEXO%20V%20-%20Ata%20de%20aprova%C3%A7%C3%A3o%20do%20Projeto.odt);
+[ANEXO V - ATA DE APROVAÇÃO DO PROJETO DE DESCENTRALIZAÇÃO E MODERNIZAÇÃO ADMINISTRATIVA](https://github.com/droubitech/TAUS/raw/master/ANEXO%20V%20-%20Ata%20de%20aprova%C3%A7%C3%A3o%20do%20Projeto.odt);
 
 --
 
-[ANEXO VI-TERMO DE HOMOLOGAÇÃO](https://github.com/droubitech/TAUS/raw/master/ANEXO%20VI%20-%20TERMO%20DE%20HOMOLOGA%C3%87%C3%83O.odt); e,
+[ANEXO VI - TERMO DE HOMOLOGAÇÃO](https://github.com/droubitech/TAUS/raw/master/ANEXO%20VI%20-%20TERMO%20DE%20HOMOLOGA%C3%87%C3%83O.odt);
 
 --
 
-[ANEXO VII-FLUXOGRAMA](https://github.com/droubitech/TAUS/raw/master/ANEXO%20VII%20-%20FLUXOGRAMA.pdf).
+[ANEXO VII - FLUXOGRAMA](https://github.com/droubitech/TAUS/raw/master/ANEXO%20VII%20-%20FLUXOGRAMA.pdf);
 
 --
 
-[ANEXO VIII-MARCO REGULATÓRIO](https://github.com/droubitech/TAUS/raw/master/ANEXO%20VIII%20-%20Marco%20Regulat%C3%B3rio.odt)
+[ANEXO VIII - MARCO REGULATÓRIO](https://github.com/droubitech/TAUS/raw/master/ANEXO%20VIII%20-%20Marco%20Regulat%C3%B3rio.odt);
+
+--
+
+[ANEXO IX - DECRETO](https://github.com/droubitech/TAUS/raw/master/ANEXO%20IX%20-%20DECRETO%20PMF%2020.180%20de%2015.04.2019.docx).
 

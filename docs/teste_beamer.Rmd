@@ -1,17 +1,21 @@
 ---
-title: "Teste BNeamer"
-author: "Luiz Fernando Palin Droubi"
+title: "Ranchos de Pesca em SC"
+subtitle: "em relação à emissão de TAUS"
+author: "Humberto Pereira Almeida"
 date: "06/12/2019"
 output: 
   beamer_presentation:
     theme: Copenhagen
     includes:
       in_header: preamble.tex
+    keep_tex: true
+classoption: 8pt
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, dev = "tikzDevice")
 ```
+
 
 ## Atual
 
@@ -26,9 +30,27 @@ knitr::opts_chunk$set(echo = FALSE, dev = "tikzDevice")
   }
 }
 \smartdiagramset{custom}
-\smartdiagram[constellation diagram]{
-\textbf{Pescador}, \textbf{SPU}, \textbf{Município}, \textbf{ICMBIO}, \textbf{BB}, \textbf{INSS}, \textbf{RFB}, \textbf{Capitania dos Portos}
+\smartdiagramanimated[constellation diagram]{
+\textbf{Pescador}, \textbf{SPU}, \textbf{Município}, \textbf{ICMBIO}, \textbf{BB}, \textbf{INSS}, \textbf{RFB}, \textbf{Capitania dos Portos}, \textbf{MAPA}
 }
+\end{center}
+
+## Desejado
+
+\begin{center}
+\smartdiagramset{
+  satellite font=\tiny,
+  satellite size=1.25cm,
+  planet font=\footnotesize,
+  planet size=1.25cm,
+  distance planet-satellite=3cm,
+  distance planet-text=.1cm,
+  /tikz/connection planet satellite/.append style={<-}
+}
+\smartdiagramadd[connected constellation diagram]{
+\textbf{Pescador}, \textbf{SPU}, \textbf{Município}, \textbf{ICMBIO}, \textbf{BB}, \textbf{INSS}, \textbf{RFB}, \textbf{Capitania dos Portos}, \textbf{MAPA}
+}{}
+\smartdiagramconnect{<->}{planet/satellite2}
 \end{center}
 
 ## Desejado {.plain}
@@ -85,13 +107,13 @@ knitr::opts_chunk$set(echo = FALSE, dev = "tikzDevice")
 
 \begin{exampleblock}{\'{O}rg\~{a}os de Fiscaliza\c{c}\~{a}o}
 \begin{enumerate}
-  \item Ministério Público Estadual;
-  \item Ministério Público Federal;
+  \item Ministério Público Estadual e Federal;
   \item IBAMA;
   \item IMA;
   \item Polícia Ambiental;
   \item Polícia Federal;
-  \item Meio Ambiente Municipal
+  \item Meio Ambiente Municipal;
+  \item SPU
 \end{enumerate}
 \end{exampleblock}
 

@@ -184,7 +184,7 @@ class: center, middle
 
 ---
 
-## Atual - Pescador é responsável por requerer em cada órgão
+## Situação Atual - Pescador é responsável por requerer em cada órgão
 
 ```{r, echo = FALSE, out.width="50%"}
 knitr::include_graphics("Diagrama_atual.PNG")
@@ -192,7 +192,7 @@ knitr::include_graphics("Diagrama_atual.PNG")
 
 ---
 
-## Ideal - Racionalização do processo envolvendo múltiplos atores institucionais
+## Situação Ideal - Racionalização do processo envolvendo múltiplos atores institucionais
 
 .pull-left[
 

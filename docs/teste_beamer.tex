@@ -1,0 +1,238 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[ignorenonframetext,8pt]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph:
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+\centering
+\begin{beamercolorbox}[sep=16pt,center]{part title}
+  \usebeamerfont{part title}\insertpart\par
+\end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+\centering
+\begin{beamercolorbox}[sep=12pt,center]{part title}
+  \usebeamerfont{section title}\insertsection\par
+\end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+\centering
+\begin{beamercolorbox}[sep=8pt,center]{part title}
+  \usebeamerfont{subsection title}\insertsubsection\par
+\end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+\usetheme[]{Copenhagen}
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdftitle={Ranchos de Pesca em SC},
+            pdfauthor={Humberto Pereira Almeida},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+%\usepackage[x11names, rgb]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+
+\usepackage{tikz}
+\usepackage{animate}
+\usetikzlibrary{babel}
+\usetikzlibrary{positioning,shapes,arrows}
+
+\usepackage{verbatim}
+\usepackage{smartdiagram}
+\usesmartdiagramlibrary{additions}
+
+%\usetikzlibrary{fit,shapes.geometric,bending}
+%\newcounter{sdpic}
+
+\title{Ranchos de Pesca em SC}
+\providecommand{\subtitle}[1]{}
+\subtitle{em relação à emissão de TAUS}
+\author{Humberto Pereira Almeida}
+\date{06/12/2019}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Atual}
+\protect\hypertarget{atual}{}
+
+\begin{center}
+\smartdiagramset{custom/.style={
+  satellite font=\tiny,
+  satellite size=1.25cm,
+  planet font=\footnotesize,
+  planet size=1.25cm,
+  distance planet-satellite=3cm,
+  distance planet-text=.1cm
+  }
+}
+\smartdiagramset{custom}
+\smartdiagramanimated[constellation diagram]{
+\textbf{Pescador}, \textbf{SPU}, \textbf{Município}, \textbf{ICMBIO}, \textbf{BB}, \textbf{INSS}, \textbf{RFB}, \textbf{Capitania dos Portos}, \textbf{MAPA}
+}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Desejado}
+\protect\hypertarget{desejado}{}
+
+\begin{center}
+\smartdiagramset{
+  satellite font=\tiny,
+  satellite size=1.25cm,
+  planet font=\footnotesize,
+  planet size=1.25cm,
+  distance planet-satellite=3cm,
+  distance planet-text=.1cm,
+  /tikz/connection planet satellite/.append style={<-}
+}
+\smartdiagramadd[connected constellation diagram]{
+\textbf{Pescador}, \textbf{SPU}, \textbf{Município}, \textbf{ICMBIO}, \textbf{BB}, \textbf{INSS}, \textbf{RFB}, \textbf{Capitania dos Portos}, \textbf{MAPA}
+}{}
+\smartdiagramconnect{<->}{planet/satellite2}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[plain]{Desejado}
+\protect\hypertarget{desejado-1}{}
+
+\begin{center}
+
+\smartdiagramset{custom/.style={
+    arrow tip=latex,
+    arrow line width=.5pt,
+    module shape=circle,
+    font=\tiny,
+    text width=1cm,
+    circular distance=3cm,
+    border color=none,
+    additions={
+        additional item font=\scriptsize,
+        additional item fill color=lightgray!50,
+        additional item offset=1.20cm,
+        additional item text width=1.5cm,
+        additional item width=2cm
+        }
+    }
+}
+
+\smartdiagramset{custom}
+\smartdiagramadd[circular diagram:clockwise]
+    {
+    \textbf{SPU} \\ TAUS,
+    \textbf{Munic\'{i}pio} \\ Nada a opor,
+    \textbf{ICMBio} \\ Nada a opor,
+    \textbf{BB} \\ Comprova\c{c}\~{a}o servidor p\'{u}blico,
+    \textbf{INSS} \\  CNIS ,
+    \textbf{RFB} \\ CEI,
+    \textbf{Capitania} \\ Carteira POP e Reg. Embarcação}
+    {right of module7/ Pescador}
+
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Entidades}
+\protect\hypertarget{entidades}{}
+
+\begin{block}{Entidades Envolvidas}
+\begin{enumerate}
+  \item Associação de Pescadores;
+  \item Associações Municipais;
+  \item Sindicatos;
+  \item Colônias de Pescadores;
+  \item Universidades
+  \item SEBRAE
+\end{enumerate}
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Órgãos de fiscalização}
+\protect\hypertarget{orgaos-de-fiscalizacao}{}
+
+\begin{exampleblock}{\'{O}rg\~{a}os de Fiscaliza\c{c}\~{a}o}
+\begin{enumerate}
+  \item Ministério Público Estadual e Federal;
+  \item IBAMA;
+  \item IMA;
+  \item Polícia Ambiental;
+  \item Polícia Federal;
+  \item Meio Ambiente Municipal;
+  \item SPU
+\end{enumerate}
+\end{exampleblock}
+
+\end{frame}
+
+\begin{frame}{Judiciais}
+\protect\hypertarget{judiciais}{}
+
+\begin{alertblock}{Demandas de Natureza Jurídica}
+\begin{enumerate}
+  \item Poder Judiciário Estadual e Federal
+\end{enumerate}
+\end{alertblock}
+
+\end{frame}
+
+\end{document}

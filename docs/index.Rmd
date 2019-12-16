@@ -15,11 +15,30 @@ output:
       countIncrementalSlides: false
       ratio: "16:9"
 ---
+class: inverse, center, middle
+
+## Superintendência do Patrimônio da União em Santa Catarina - SPU/SC
+
+Praça XV de Novembro, 336, Centro, CEP 88010-400, Florianópolis
+Fone: 48 3251-8215
+
+---
+class: inverse, center, middle
+
+## NABIH HENRIQUE CHRAIM
+#### SUPERINTENDENTE
+
+## JULIANO LUIZ PINZETTA
+#### COORDENADOR
+
+## ALEXANDRE PANDINO AZEVEDO
+#### TÉCNICO
+---
 
 background-image: url(Capa.png)
 background-size: contain
 
-Comunidade de Palhoça - Foto do Google
+Comunidade Barra do Aririú - Palhoça/SC - Foto do Google
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -43,7 +62,6 @@ Preservar comunidades tradicionais de pescadores profissionais/artesanais, salva
 
 ## Alguns fatores críticos 
 
---
 
 + Os pescadores estão fisicamente distantes da SPU/SC
 
@@ -57,7 +75,7 @@ Preservar comunidades tradicionais de pescadores profissionais/artesanais, salva
 
 --
 
-+ Os pescadores precisam recorrer a 7 (sete) entes para conseguir os requisitos necessários à obtenção de TAUS
++ Os pescadores precisam recorrer a 8 (oito) entes para conseguir os requisitos necessários à obtenção de TAUS
 
 --
 
@@ -74,15 +92,15 @@ Preservar comunidades tradicionais de pescadores profissionais/artesanais, salva
 
 --
 
-### Volumoso passivo de pleitos na NUREF/SPU/SC
+#### Volumoso passivo de pleitos na NUREF/SPU/SC
 
 --
 
-.full-width[.content-box-purple[.center[Processos triados - DIRFH (Set/2019) <br> 853]]]
+.full-width[.content-box-purple[.center[Processos triados - DIRFH (Jun/2019) <br> 839]]]
 
 --
 
-.pull-left[.full-width[.content-box-yellow[.center[Processos TAUS <br> 796]]]]
+.pull-left[.full-width[.content-box-yellow[.center[Processos TAUS <br> 782]]]]
 .pull-right[.full-width[.content-box-green[.center[Regularização Fundiária <br> 43]]]]
 
 --
@@ -99,7 +117,10 @@ Preservar comunidades tradicionais de pescadores profissionais/artesanais, salva
 .pull-right[.full-width[.content-box-green[.center[REURB <br> 08]]]]
 ]
 
-.footnote[Outros: 14]
+.footnote[
+Obs.: Diagnóstico elaborado pelo servidor Telesmagno Neves Teles.
+]
+
 ---
 ## Processos tramitando no SEI/ME 
 ### (maio a dezembro/2019)
@@ -115,12 +136,12 @@ Preservar comunidades tradicionais de pescadores profissionais/artesanais, salva
 |Imbituba                                       |02          |1,74%   |
 |São Francisco do Sul                           |02          |1,74%   |
 |**Total**                                      |**115**     |**100%**|
-Obs.: Neste levantamento não estão os processos SEI/MP
+
+Obs.: Neste levantamento não estão os processos SEI/MP - Diagnóstico elaborado pelo Humberto.
 
 ---
 ## Dificuldades encontradas
 
---
 
 1. Praticamente os processos de TAUS, são provenientes de demandas de natureza jurídica (Denúncia, MPF e Justiça), que requer cuidados especiais, inclusive Reurb, com prazo de resposta.
 
@@ -180,7 +201,6 @@ Exemplo:
 ---
 ## Vantagens da ação descentralizada
 
---
 
 + O Pescador espera que as suas necessidades sejam atendidas no próprio município.
 --
@@ -322,7 +342,6 @@ knitr::include_graphics("judiciais.PNG")
 
 #### Projeto de Descentralização e Modernização Administrativa de Regularização de Ranchos de Pesca em Santa Catarina
 
---
 
 I - DIAGNÓSTICO DOS PROCESSOS DE RANCHOS DE PESCA EM TRAMITAÇÃO NA SPU, visando conhecer melhor a sua situação;
 
@@ -336,7 +355,7 @@ III - CRIAÇÃO DOS INSTRUMENTOS NECESSÁRIOS, por meio de reuniões de trabalho
 
 --
 
-Aprovação do Projeto de Descentralização e Modernização Administrativa;
+IV - Aprovação do Projeto de Descentralização e Modernização Administrativa;
 
 --
 
@@ -347,20 +366,12 @@ V - MARCO REGULATÓRIO, a SPU descentralizou recursos aos municípios, mas não 
 VI - DECRETO  Nº 20.180/2019 do Município de Florianópolis, que regulamentou o marco regulatório de ranchos em seu Município. 
 
 ---
-class: center, inverse, middle
-
-## Fluxograma do Processo
-
----
-background-image: url(fluxograma.png)
-background-size: contain
----
 
 ## LINKS
 
 --
 
-[PROJETO DE DESCENTRALIZAÇÃO E MODERNIZAÇÃO ADMINISTRATIVA](https://github.com/droubitech/TAUS/raw/master/Projeto%20de%20Descentraliza%C3%A7%C3%A3o%20e%20Moderniza%C3%A7%C3%A3o%20Administrativa.odt)
+[PROJETO DE DESCENTRALIZAÇÃO E MODERNIZAÇÃO ADMINISTRATIVA](https://github.com/droubitech/TAUS/raw/master/00%20-%20Projeto%20de%20Descentraliza%C3%A7%C3%A3o%20e%20Moderniza%C3%A7%C3%A3o%20Administrativa.odt)
 
 --
 

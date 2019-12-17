@@ -1,0 +1,215 @@
+[INCLUDE=presentation]
+Title         : Ranchos de Pesca em SC
+Sub Title     : em relação à emissão de TAUS
+Author        : Alexandre Pandino Azevedo
+Affiliation   : SPU/SC
+Email         : alexandre.pandino@planejamento.gov.br
+Reveal Theme  : sky
+Beamer Theme  : Copenhagen
+Locale        : pt-br
+Css           : default.css
+Package       : pstricks
+Package       : pst-plot
+
+[TITLE]
+
+# Conteúdo
+
+[TOC]
+
+# Vetor social da concessão de TAUS para Ranchos de Pesca
+
+<br><br><br><br><br><br>
+
+Preservar comunidades tradicionais de pescadores profissionais/artesanais, salvaguardando a cultura dessas comunidades.
+
+## Alguns fatores críticos 
+
++ Os pescadores estão fisicamente distantes da SPU/SC
+
++ Os Pescadores apresentam dificuldades no acesso ao Portal Eletrônico, preferem atendimento presencial
+
++ Conflito entre a diretrizes de ordenamento costeiro do município e a necessidade de preservação das comunidades de pesca artesanal
+
++ Os pescadores precisam recorrer a 8 (oito) entes para conseguir os requisitos necessários à obtenção de TAUS
+
++ Reduzida capacidade de resposta dos órgãos públicos, quando agem de forma isolada
+{.fragmented}
+
+### Apontam a necessidade de mudança para uma ação articulada
+
+# Impacto desses fatores críticos
+
+#### Volumoso passivo de pleitos na NUREF/SPU/SC
+
+[Processos TAUS <br> 782]{ margin-left=1ex }
+[Regularização Fundiária]{ margin-right=1ex } 
+
+## Processos tramitando no SEI/ME 
+### (maio a dezembro/2019)
+
+|-----------------------------------------------|------------|--------|
+| Demandas por processo                         | Quantidade | %      |
++-----------------------------------------------|:----------:+:------:+
+|Natureza jurídica (MPF e Justiça)              |39          |33,91%  |
+|Reurb com prazo de manifestação em 30 dias     |17          |14,78%  |
+|RegFund – Regularização Fundiária (lei antiga) |04          |3,48%   |
+|Balneário Barra do Sul                         |01          |0,87%   |
+|Balneário Gaivota                              |01          |0,87%   |
+|Florianópolis                                  |49          |42,61%  |
+|Imbituba                                       |02          |1,74%   |
+|São Francisco do Sul                           |02          |1,74%   |
+|**Total**                                      |**115**     |**100%**|
+|-----------------------------------------------|------------|--------|
+{}
+**Obs.:** Neste levantamento não estão os processos SEI/MP - Diagnóstico elaborado pelo Humberto.
+
+## Dificuldades encontradas
+
+1. Praticamente os processos de TAUS, são provenientes de demandas de natureza jurídica (Denúncia, MPF e Justiça), que requer cuidados especiais, inclusive Reurb, com prazo de resposta.
+
+2. Os demais processos que estão no SEI/MP, não foram migrados para o SEI/ME.
+
+3. Praticamente a NUREF, trabalha em prol do MPF e Justiça, mesmo após a resposta aos entes, devendo analisar processo a processo de cada pescador. Além disso, somos responsáveis pela articulação interna com as outras áreas na SPU/SC, com os pescadores, municípios, Órgãos ambientais e MPF, inclusive, participar de audiências, tudo isso demanda tempo. 
+
+## Dificuldades encontradas
+
+Exemplo: 
+
+- Ação Civil Pública - Via Expressa Sul, em Florianópolis, dos 56 processos, foram demolidos 6 ranchos, com a emissão do TAUS, conforme Termo de Audiência acordada em juízo que foi neste ano; e,
+
+- Ação Civil Pública - Praia da Tapera, em Florianópolis, dos 33 processos, todos vão ser demolidos, apenas 16 ranchos vão ser realocados, conforme Termo de Audiência acordada em juízo que foi neste ano.
+
+# TAUS CONCEDIDOS
+
+|---------------------|------|-----|
+|Período              | Qtde | %   |
+|:--------------------|-----:|----:|
+| 2004-2018 (15 anos) | 46   | 51% |
+| 2019                | 44   | 49% |
+| **TOTAL GERAL**     | 90   | 100%|
+|---------------------|------|-----|
+{ }
+~ Slide
+|------|------------|
+| Ano  | Quantidade |
+|:----:|-----------:|
+| 2004 | 1          |
+| 2005 | 0          |
+| 2006 | 0          |
+| 2007 | 0          |
+| 2008 | 1          |
+| 2009 | 1          |
+| 2010 | 0          |
+| 2011 | 31         |
+| 2012 | 0          |
+| 2013 | 5          |
+| 2014 | 0          |
+| 2015 | 5          |
+| 2016 | 0          |
+| 2017 | 0          |
+| 2018 | 1          |
+| 2019 | 44         |
+|------|------------|
+| TOTAL| 90         |
+|------|------------|
+{ tbody-tr-odd-background-color: Lightgrey; \
+  tr-even-background-color: Darkgrey }
+~
+
+## Vantagens da ação descentralizada
+
++ O Pescador espera que as suas necessidades sejam atendidas no próprio município.
+
++ O município perfaz a filtragem dos pleitos, evitando que demandas em desacordo com o Plano Diretor Municipal e Ambiental
+
++ A fiscalização do uso e ocupação do solo já é feita por órgãos municipais especializados (questões de planejamento urbano, defesa sanitária e ambiental).
+
++ A proteção às comunidades tradicionais de pescadores artesanais/profissionais, dentre outras minorias, é exercida pelos municípios.
+{.fragmented}
+
+## O necessário financiamento
+### O repasse aos municípios para fins de gestão do patrimônio da União
+
+~ Slide
+
+|--------------------------|-------------------------|----------------------|-----------------------|-------------|
+|   MUNICÍPIOS             | VALORES 2016 <br> (R$)  |VALORES 2017 <br> (R$)| VALORES 2018 <br> (R$)|	TOTAL       | 
++--------------------------+------------------------:|---------------------:|----------------------:|-------------+
+|ABELARDO LUZ       	     |       565,87 	         |       545,46 	      |       561,02 	        |     1.672,35|
+|ARAQUARI	                 |    48.406,50 	         |    54.987,06 	      |   155.372,86 	        |   258.766,42|
+|ARARANGUA	               |    34.368,84 	         |    35.215,11 	      |    39.291,37 	        |   108.875,32| 
+|BALNEARIO ARROIO DO SILVA |     2.722,50 	         |     3.371,51 	      |     1.612,13 	        |     7.706,14|
+|BALNEARIO BARRA DO SUL	   |    11.874,41 	         |    10.628,53 	      |    10.099,18 	        |    32.602,12|
+|BALNEARIO CAMBORIU	       | 2.745.016,03 	         | 2.958.088,09 	      | 3.253.953,30 	        | 8.957.057,42| 
+|BALNEARIO PICARRAS	       |    39.839,04 	         |    58.656,81 	      |    57.684,33 	        |   156.180,18|
+|BARRA VELHA	             |    67.591,40 	         |    60.337,65 	      |    56.905,38 	        |   184.834,43|
+|BIGUACU	                 |    52.794,67 	         |    59.707,32 	      |    59.681,30 	        |   172.183,29|
+|BLUMENAU	                 |    26.225,69 	         |    31.269,60 	      |    -   	              |    57.495,29|
+|BOMBINHAS	               |   443.421,10 	         |   492.018,09 	      |   559.070,28 	        | 1.494.509,47|
+|CAMBORIU	                 |     1.053,13 	         |     1.104,89 	      |     1.653,33 	        |     3.811,35|
+|--------------------------|-------------------------|----------------------|-----------------------|-------------|
+{ }
+~
+
+~Slide
+|-----------------------|------------------------|----------------------|-----------------------|-------------|
+| MUNICÍPIOS            | VALORES 2016 <br> (R$) |VALORES 2017 <br> (R$)| VALORES 2018 <br> (R$)| TOTAL       |
++-----------------------+-----------------------:|---------------------:|----------------------:|-------------+
+|FLORIANOPOLIS          | 1.535.549,96           | 1.451.924,24         | 1.512.138,34          | 4.499.612,54|
+|GAROPABA               | 122.050,11             | 164.691,58           | 131.802,86            | 418.544,55  |
+|GARUVA                 | 14.172,56              | 19.160,96            | 15.161,68             | 48.495,20   |
+|GASPAR                 | 19.908,58              | 16.635,22            | 20.756,00             | 57.299,80   |
+|GOVERNADOR CELSO RAMOS | 254.864,93             | 282.280,03           | 304.220,98            | 841.365,94  |
+|ICARA                  | 5.813,07               | 3.466,19             | 5.159,67              | 14.438,93   |
+|ILHOTA                 | 1.419,92               | 1.930,25             | 2.041,06              | 5.391,23    |
+|IMARUI                 | 2.264,52               | 3.027,81             | 2.323,36              | 7.615,69    |
+|IMBITUBA               | 89.567,64              | 105.676,85           | 73.440,86             | 268.685,35  |
+|ITAJAI                 | 450.691,37             | 474.342,43           | 504.355,68            | 1.429.389,48|
+|ITAPEMA                | 713.729,77             | 720.005,73           | 889.400,94            | 2.323.136,44|
+|ITAPOA                 | 53.416,15              | 53.269,48            | 56.859,01             | 163.544,64  |
+|-----------------------|------------------------|----------------------|-----------------------|-------------|
+~
+
+~Slide
+|---------------------|------------------------|----------------------|-----------------------|-------------|
+| MUNICÍPIOS          | VALORES 2016 <br> (R$) |VALORES 2017 <br> (R$)| VALORES 2018 <br> (R$)| **TOTAL**   |
++---------------------+-----------------------:|---------------------:|----------------------:|-------------+
+|JAGUARUNA            | 591,32                 | 1.573,31             | 649,53                | 2.814,16    |
+|JOINVILLE            | 248.826,52             | 310.241,49           | 204.808,84            | 763.876,85  |
+|LAGUNA               | 176.855,32             | 195.519,36           | 294.704,32            | 667.079,00  |
+|NAVEGANTES           | 157.187,52             | 179.588,11           | 155.266,22            | 492.041,85  |
+|PALHOCA              | 251.391,60             | 189.934,08           | 225.162,37            | 666.488,05  |
+|PASSO DE TORRES      | 4.162,60               | 3.935,01             | 4.036,50              | 12.134,11   |
+|PENHA                | 249.600,46             | 221.967,68           | 276.497,46            | 748.065,60  |
+|PORTO BELO           | 1.379.701,51           | 1.330.019,41         | 1.309.615,15          | 4.019.336,07|
+|SAO FRANCISCO DO SUL | 203.388,48             | 130.127,39           | 125.855,83            | 459.371,70  |
+|SÃO JOÃO DO SUL      | 5.303,39               | 4.739,63             | 4.827,35              | 14.870,37   |
+|SÃO JOSE             | 837.542,43             | 644.253,86           | 623.197,93            | 2.104.994,22|
+|SOMBRIO              | 258,32                 | 761,48               | -                     | 1.019,80    |
+|TIJUCAS              | 8.383,65               | 9.104,76             | 8.105,55              | 25.593,96   |
+|---------------------|------------------------|----------------------|-----------------------|-------------|
+~
+
+# Situação Atual
+
+### Pescador é responsável por requerer em cada órgão
+
+![Diagrama_atual]
+
+[Diagrama_atual]: images/Diagrama_atual.PNG "Diagrama_atual" { width:auto; max-width:90% }
+
+# Situação Ideal
+
+### Racionalização do processo envolvendo múltiplos atores institucionais
+
+![Diagrama]
+
+[Diagrama]: images/Diagrama.PNG "Diagrama" { width:auto; max-width:90% }
+
+# Situação Ideal
+
++ Vantagens da Janela Única (single window) no atendimento ao Usuário do serviço público - O Decreto 9.094/2017.
+
++ Responsabilização da instituição de entrada por toda a cadeia do processo, desde o requerimento até a emissão de TAUS
+
